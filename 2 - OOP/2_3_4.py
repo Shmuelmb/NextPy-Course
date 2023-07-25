@@ -1,8 +1,8 @@
 class Pixel:
-    def __init__(self, _x=0, _y=0, _red=0, _green=0, _blue=0):
-        self._x = _x
-        self._y = _y
-        self._color = (_red, _green, _blue)
+    def __init__(self, x=0, y=0, red=0, green=0, blue=0):
+        self._x = x
+        self._y = y
+        self._color = (red, green, blue)
 
     def set_coords(self, x, y):
         self._x = x
