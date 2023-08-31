@@ -3,5 +3,5 @@ def is_prime(number):
     return len(result) == 2
 
 
-print(is_prime(178))  # normal number
-print(is_prime(191))  # prime number
+# print(is_prime(178))  # normal number
+# print(is_prime(191))  # prime number
